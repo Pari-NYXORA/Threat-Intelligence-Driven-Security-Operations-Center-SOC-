@@ -1,0 +1,39 @@
+        ATTACK
+          │
+          ▼
+   Kali Linux
+          │
+          ▼
+ ┌─────────────────┐
+ │ Windows / Linux │
+ │    Endpoint     │
+ └────────┬────────┘
+          │
+          ▼
+ Sysmon / Auditd
+          │
+          ▼
+     Wazuh Agent
+          │
+          ▼
+    Wazuh Manager
+          │
+          ▼
+       Decoder
+          │
+          ▼
+    Detection Rule
+          │
+          ▼
+       Alert
+          │
+          ├──────────────► MISP IOC Lookup
+          │                      │
+          │                      ▼
+          │                Threat Context
+          │
+          ▼
+    Investigation
+          │
+          ▼
+   Response / Report
