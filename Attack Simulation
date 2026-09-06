@@ -1,0 +1,16 @@
+Attack Simulation
+
+Controlled simulations were performed inside the isolated lab to validate the detection pipeline.
+
+Examples include:
+
+Nmap host discovery
+Nmap port and service scanning
+Authentication failure / brute-force testing
+PowerShell activity
+Suspicious process execution
+EICAR test file
+Controlled reverse-shell callback testing
+MITRE ATT&CK technique simulations
+
+All attack activity is restricted to the isolated laboratory environment.
