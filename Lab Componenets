@@ -1,0 +1,12 @@
+| Component              | Role                                           |
+| ---------------------- | ---------------------------------------------- |
+| **Kali Linux**         | Controlled attack simulation                   |
+| **Windows 11**         | Monitored endpoint                             |
+| **Ubuntu Server**      | Linux telemetry source                         |
+| **Wazuh**              | SIEM, alerting and detection                   |
+| **Sysmon**             | Windows endpoint telemetry                     |
+| **Auditd**             | Linux security auditing                        |
+| **MISP**               | Threat intelligence and IOC enrichment         |
+| **MITRE ATT&CK**       | Detection classification and technique mapping |
+| **VMware Workstation** | Virtualization                                 |
+| **Host-Only Network**  | Lab isolation                                  |

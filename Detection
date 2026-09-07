@@ -1,0 +1,18 @@
+Detection logic was developed around security-relevant endpoint activity and mapped to MITRE ATT&CK techniques.
+
+Examples include:
+
+Detection	MITRE ATT&CK
+PowerShell execution	T1059.001
+Windows Command Shell	T1059.003
+Encoded PowerShell	T1027 / T1059.001
+Failed authentication	T1110
+Network/service discovery	T1046
+LSASS access	T1003.001
+Scheduled task activity	T1053.005
+Suspicious network connection	Technique-dependent
+Malware/hash-based detection	Technique-dependent
+
+Detection development includes:
+
+Detection Logic → MITRE Mapping → Severity → False Positives → Investigation → Response
